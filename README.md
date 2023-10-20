@@ -178,3 +178,60 @@ Kemudian selanjutnya mengatur navigasi.
 
   ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/c6e678a4-ab02-42ef-b39e-1904fee49a11)
 
+- **Mengatur Footer**
+
+  Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/a8ab4c80-8c47-4f62-937b-c6c09e245ade)
+
+  **VSCode - CSS Eksternal**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/3fc0b82f-fc59-41a5-8664-7878c63a0026)
+
+  **Hasil Run**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/beafc8df-affe-498f-94bf-17f9b919be61)
+
+- **Menambahkan Elemen lainnya pada Main Content**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/ea728295-183b-4c4d-82d7-180022403bee)
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/e8c51743-4384-49c9-b6d1-1dc1d3e3b158)
+
+  **VSCode - HTML**
+
+    ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/52f986a7-cfc3-4552-9aff-ce4a9b288706)
+
+
+  **VSCode - CSS Eksternal**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/f30c68d9-704d-4971-9aad-05dc92b509b5)
+  
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/982aa0ed-8921-4ebc-b2a3-2a81884bf215)
+
+  **Hasil Run**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/34d36fc9-8263-4f7b-ac75-4d8016429700)
+
+
+- **Menambahkan content Artikel**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/9b9a023c-55af-48ac-85f8-b60fd2df6629)
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/b0049848-2bc2-4aee-a88c-08bcd2f8cee4)
+
+  **VSCode - HTML**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/909c5a6c-f681-463c-a72e-1f7d53007eda)
+
+  **VSCode - CSS Eksternal**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/b2f44cb5-0c80-46e2-8405-cfe981c98b02)
+
+  **Hasil Run**
+
+  ![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/83958c95-34c7-4b2e-b16a-d3fcd74154fb)
+
+**4. Validasi**
+
+Lakukan validasi dokumen HTML dengan mengakses http://validator.w3.org 
+
