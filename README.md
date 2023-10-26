@@ -235,3 +235,237 @@ Kemudian selanjutnya mengatur navigasi.
 
 Lakukan validasi dokumen HTML dengan mengakses http://validator.w3.org 
 
+![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/2262ef93-8765-494b-a024-8bc242bc37f2)
+
+**Pertanyaan dan Tugas**
+1. Tambahkan Layout untuk menu About
+   
+=> buat single layout yang berisi deskripsi, portfolio, dll
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="Lab4_layout.html">Home</a>
+            <a href=artikel.html>Artikel</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div id="conteiner-desk">
+            <section id="about-desk">
+                <h2>Biografi</h2>
+                <img src="pp.png" alt="Muhamad David Ali">
+                <p>Nama : Muhamad David Ali<br> TTL : 14 Agustus 2004<br> Alamat : Kp. Cibuntu</p>
+            </section>
+            <hr class="divider">
+            <section id="about-2">
+                <h2>Profile</h2>
+                <p>Hi, nama saya Muhamad david Ali, seorang <b>Mahasiswa Universitas Pelita Bangsa</b>, Fakultas Teknik Program Studi Informatika </p>
+                <p class="p1">Saya sedang mempelajari Pemrograman Web 1 tentang <i>Layout</i> sederhana, yang berisikan Home, Artikel, About, dan Contact</p>
+            </section>
+            <hr class="divider">
+            <section id="my-acc">
+                <h2>My Account</h2>
+                <ul id="column">
+                    <li>
+                        <img src="logo_ig.png" alt="Instagram">
+                        <a href="https://instagram.com/david14804?igshid=YTQwZjQ0NmI0OA=="></a>
+                        <h3>@david114804</h3>
+                    </li>
+                    <li>
+                        <img src="yt.png" alt="Youtube" >
+                        <a href="https://youtube.com/@muhamaddavidali2728?si=15_4Mjgij6rIJ8S-"></a>
+                        <h3>Muhamad David Ali</h3>
+                    </li>
+                </ul>
+            </section>
+        </div> 
+    </div>
+</body>
+</html>
+```
+
+**VSCode - CSS Eksternal (Tambahan)**
+
+```
+/*about me*/
+#about-desk{
+    background-color: #e4e4e4;
+    padding: 30px 20px;
+}
+
+#about-desk h2{
+    padding-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#about-desk p{
+    line-height: 25px;
+    float: right;
+    margin-right: 480px;
+    padding: 10px;
+}
+
+#about-desk img{
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+#about-2 h2{
+    padding-bottom: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+#about-2 p {
+    margin-left: 40px;
+}
+
+.p1{
+    margin-top: 10px;
+}
+
+#my-acc{
+    padding-bottom: 30px;
+}
+
+#column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#my-acc h2{
+    margin: 40px;
+}
+
+#my-acc img{
+    height: 40px;
+}
+
+
+#my-acc li{
+    list-style-type: none;
+    margin: 10px;
+}
+```
+
+**Hasil Run**
+
+![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/3790e366-ddb7-4a15-bed4-5f335b3e94cb)
+
+**Validasi**
+
+![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/030e7d7e-e2f0-4f5a-b468-92b1d2545318)
+
+
+2. Tambahkan layout untuk menu Contact
+
+=> yang berisi form isian: nama, email, message, dll
+
+**VSCode - HTML**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact</h1>
+        </header>
+        <nav>
+            <a href="Lab4_layout.html">Home</a>
+            <a href=artikel.html>Artikel</a>
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div id="cont-1">
+            <h2>Form</h2>
+            <form action="proses.php" method="post">
+                <fieldset>
+                    <legend>Contact</legend>
+                    <p>
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="nama">
+                    </p>
+                    <p>
+                        <label for="alamat">Alamat</label>
+                        <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+                    </p>
+                    <p>
+                        <label>Jenis Kelamin</label>
+                        <input id="jk_l" type="radio" name="kelamin" value="L"><label for="jk_l">Laki-laki</label>
+                        <input id="jk_p" type="radio" name="kelamin" value="p"><label for="jk_p">Perempuan</label>
+                    </p>
+                    <p>
+                        <input type="submit" value="login">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    
+
+</body>
+</html>
+```
+
+**VSCode - CSS Eksternal (tambahan)**
+
+```
+/*contact form*/
+#cont-1{
+    padding: 20px;
+    background-color: #e4e4e5;
+    border-radius: 5px;
+}
+#cont-1 form p label{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cont-1 form input[type="text"], form textarea{
+    border: 1px solid #197a43;
+    border-radius: 5px;
+}
+
+#cont-1 form input[type="submit"]{
+    border: 10px solid#197a43;
+    background-color: #197a43;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 20px;
+    padding-bottom:  5px 15px;
+}
+```
+
+**Hasil Run**
+
+![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/7e7c0db5-c20f-44d3-b596-c80b13b01c91)
+
+**Validasi**
+
+![image](https://github.com/Luxcario/Lab-4-BOX/assets/116184002/90731229-5cce-481a-a4c8-43d04e03a2a1)
+
